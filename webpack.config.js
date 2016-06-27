@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool: 'eval-source-map',
-    entry:  __dirname + "/app/main.js",
+    entry:  __dirname + "/src/main.js",
     output: {
         path: __dirname + "/dist",
         filename: "bundle.js"
@@ -27,7 +27,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: __dirname + "/app/index.tmpl.html"
+            template: __dirname + "/src/index.tmpl.html"
         }),
         new webpack.HotModuleReplacementPlugin()
     ],

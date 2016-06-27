@@ -1,4 +1,4 @@
-# React-movieDB-search
+# React Hello World
 Dummy example written in React and ES6.
 
 Uses React, ES6 (Babel) and Webpack
